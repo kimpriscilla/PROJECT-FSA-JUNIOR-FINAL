@@ -1,0 +1,222 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+form > * {
+  width: auto;
+}
+
+#campuses div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* position: relative; */
+  width: 100vw;
+  overflow: hidden;
+  margin: 2px;
+  padding: 5px;
+}
+
+h3#campusHeading {
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+/*
+form {
+  display: flex;
+  justify-content: center;
+} */
+
+/* table {
+  position: relative;
+  text-align: center;
+  border-style: dashed;
+  border-width: 2px;
+}  */
+
+nav {
+  /* background-color: aquamarine;
+  display: flex;
+  justify-content: space-around;
+  */
+  margin-top: 0;
+  padding: 20px;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0.2em 1em;
+}
+/*
+nav a:hover {
+  color: #000;
+  background-color: #fff;
+} */
+
+body {
+  background: linear-gradient(to right, #cc99ff 0%, #ff99cc 100%);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#campusNav #studentNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+div.campusList {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*
+#students div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  overflow: hidden;
+  margin: 2px;
+  padding: 5px;
+} */
+
+#students {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  overflow: hidden;
+  margin: 2px;
+  padding: 5px;
+}
+
+#students div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  overflow: hidden;
+  margin: 2px;
+  padding: 5px;
+}
+
+#campuses {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  overflow: hidden;
+  margin: 2px;
+  padding: 5px;
+}
+
+#campuses div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  overflow: hidden;
+  margin: 2px;
+  padding: 5px;
+}
+
+#singleStudent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  /* overflow: hidden; */
+  margin: 2px;
+  padding: 5px;
+}
+
+#singleStudent > div {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  width: 100vw;
+  /* overflow: hidden; */
+  margin: 2px;
+  padding: 5px;
+}
+
+.student-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.campus-details {
+  display: flex;
+  flex-direction: column;
+}
+
+#singleCampus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  overflow: hidden;
+  margin: 2px;
+  padding: 5px;
+}
+
+#singleCampus > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  overflow: hidden;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+}
+/* #singleCampus .campus-details {
+  text-align: center;
+}
+#singleStudent .student-details {
+  text-align: center;
+} */
+
+/* .studentList p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* width: 300px;
+  height: 100px;
+  border: 1px dotted blue; */
+
+/* p {
+  align-items: center;
+} */
+
+/* div#homeButton {
+  display: flex;
+  justify-content: center;
+} */
+
+div#campusHomeButton {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+.card-img-top {
+  width: 500px;
+  height: 500px;
+}
+
+hr {
+  background-color: black;
+}
